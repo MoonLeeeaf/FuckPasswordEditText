@@ -1,0 +1,20 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/铃芽の文件/Projects/FuckPasswordEditText/app/src/main/java/io/github/moonleeeaf/fuckpasswordedittext/Hook.java",
+      "selection": {
+        "end": {
+          "column": 3,
+          "index": 1421,
+          "line": 37
+        },
+        "start": {
+          "column": 3,
+          "index": 1421,
+          "line": 37
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/铃芽の文件/Projects/FuckPasswordEditText/app/src/main/java/io/github/moonleeeaf/fuckpasswordedittext/Hook.java"
+}

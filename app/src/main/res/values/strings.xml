@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FuckPasswordEditText</string>
+    <string name="description">阻止 EditText 设置文本类型为密码\nGitHub @MoonLeeeaf</string>
+</resources>
