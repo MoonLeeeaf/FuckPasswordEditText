@@ -1,4 +1,4 @@
-## FuckPasswordText
+## FuckPasswordEditText
 
 去你吗的密码型 EditText，我你吗就只想看密码，你干嘛要阻止我！！！！！！！！
 
