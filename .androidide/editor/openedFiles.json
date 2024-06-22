@@ -4,17 +4,47 @@
       "file": "/storage/emulated/0/铃芽の文件/Projects/FuckPasswordEditText/app/src/main/java/io/github/moonleeeaf/fuckpasswordedittext/Hook.java",
       "selection": {
         "end": {
-          "column": 3,
-          "index": 1421,
-          "line": 37
+          "column": 4,
+          "index": 1468,
+          "line": 39
         },
         "start": {
-          "column": 3,
-          "index": 1421,
-          "line": 37
+          "column": 4,
+          "index": 1468,
+          "line": 39
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/铃芽の文件/Projects/FuckPasswordEditText/app/src/main/AndroidManifest.xml",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/铃芽の文件/Projects/FuckPasswordEditText/app/build.gradle",
+      "selection": {
+        "end": {
+          "column": 23,
+          "index": 291,
+          "line": 14
+        },
+        "start": {
+          "column": 23,
+          "index": 291,
+          "line": 14
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/铃芽の文件/Projects/FuckPasswordEditText/app/src/main/java/io/github/moonleeeaf/fuckpasswordedittext/Hook.java"
+  "selectedFile": "/storage/emulated/0/铃芽の文件/Projects/FuckPasswordEditText/app/build.gradle"
 }

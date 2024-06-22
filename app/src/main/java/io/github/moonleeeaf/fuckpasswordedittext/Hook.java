@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.InputType;
 import android.widget.EditText;
+import android.widget.MultiAutoCompleteTextView;
 import android.widget.Toast;
 import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.XC_MethodHook;
@@ -21,10 +22,9 @@ import java.util.Map;
 
 public class Hook implements IXposedHookLoadPackage {
         
-    @Override
-    public void handleLoadPackage(XC_LoadPackage.LoadPackageParam param) throws Throwable {
+    public void fuck(XC_LoadPackage.LoadPackageParam param, Class<?> clazz) throws Exception {
         XposedBridge.hookMethod(
-            EditText.class.getMethod(
+            clazz.getMethod(
                 "setInputType",
                 int.class
             ),
@@ -36,6 +36,12 @@ public class Hook implements IXposedHookLoadPackage {
                 }
             }
         );
+    }
+    
+    @Override
+    public void handleLoadPackage(XC_LoadPackage.LoadPackageParam param) throws Throwable {
+        fuck(param, EditText.class);
+        fuck(param, MultiAutoCompleteTextView.class);
     }
    
 }
